@@ -20,3 +20,8 @@ Started GET "/" for 75.83.180.155 at 2018-10-05 21:49:04 +0000
 Processing by Rails::WelcomeController#index as HTML
   Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/railties-4.2.10/lib/rails/templates/rails/welcome/index.html.erb (2.8ms)
 Completed 200 OK in 27ms (Views: 16.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/hello_world" for 75.83.180.155 at 2018-10-05 21:55:34 +0000
+Processing by StaticController#hello_world as HTML
+  Rendered static/hello_world.html.erb within layouts/application (3.2ms)
